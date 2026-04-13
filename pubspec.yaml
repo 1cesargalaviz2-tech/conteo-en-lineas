@@ -1,0 +1,18 @@
+name: conteo_en_lineas
+description: App de conteo de códigos
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^3.5.2
+  shared_preferences: ^2.2.2
+  vibration: ^1.8.4
+  audioplayers: ^5.2.1
+  path_provider: ^2.1.2
+  csv: ^5.0.2
+
+flutter:
+  uses-material-design: true
